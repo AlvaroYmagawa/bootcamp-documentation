@@ -1,36 +1,90 @@
-# RocketSeat Bootcamp GoStack8
-Este repositório tem como objetivo server de índice e histórico dos projetos desenvolvidos durante o Bootcamp, mas também deve servir para anotações de ferramentas e bibliotecas importantes ou úteis para o desenvolvimento na Stack abordada.
+# Packages
 
-## Sobre o Bootcamp GoStack08
-Segundo a definição da RocketSeat o GoStack é um treinamento online, intensivo com foco na prática e produtividade. O GoStack aborda a fundo as tecnologias Node.js, React e React Native bem como as ferramentas necessárias para que seja possa ser feito desde o desenvolvimento até o deploy. Incluindo teste, integração contínua, publicação na lojas e as mais utilizadas bibliotecas e frameworks para ser capaz de enfrentar os desafios reais.
+## express
+* Função: 
+- Realiza criação e manipulação do servidor
+* Instalação:
+- yarn add express
 
-# Node.js
+## nodemon
+* Função:
+- Reinicia automaticamente o servidor após save
+* Instalação:
+- yarn add nodemon -D
 
 ## JWT (Json Web Token)
-Realiza a autentição no login
-
-## Instalação
-yarn add jsonwebtoken
+* Função:
+- Ferramenta para autentição no login
+* Instalação: 
+- yarn add jsonwebtoken
 
 ## Yup
-Ferramenta para verificação de campos
+* Função:
+- Ferramenta para verificação de campos
+* Instalação: 
+- yarn add yup
 
-## Instalação
-yarn add yup
+## Bscryptjs
+* Função:
+- Ferramenta para criptografar dados
+* Instalação:
+- yarn add bcryptojs
+
+## Eslint
+* Função:
+- Ferramenta para padronização do código, baseado em grandes empresas
+* Intalação: 
+- yarn add eslint -D
+- Instalar extensão via vsCode
+
+## EditoConfig
+* Função:
+- Facilita a padronização do código em editores diferentes
+* Instalação:
+- instalar extensão via vsCode
+
+## Prettier
+* Função:
+- Extensão do Eslint, utilizado para "perfumar" seu código
+* Instalação:
+- instalar extensão via vsCode
+- yarn add prettier -D
+- yarn add eslint-config-prettier -D
+- yarn add eslint-plugin-prettier -D
+
+## Sequelize
+* Função:
+- ORM(Object Relational Mapper), utiliza sintaxe JS para manipular banco de dados
+* Intalação: 
+- yarn add sequelize
+- yarn add sequelize-cli -D //facilita linha de comandos
 
 
-# GitHub
-## Nomenclatura de Commits
-* Feat -> Funcionalidade nova
-* Chore -> Continuação/alteração de uma funcionalidade 
-* Fix -> Resolução de um bug
-* Test -> Teste
+# Ferramentas
 
-# Commands
-* git commit --amend -> Altera a mensagem do último commit
-* git checkout -b "nomeBranch" -> Cria branch
-* git stash -> esconde os stages 
-* git pop -> retorna os stages
+##Yarn
+* Função:
+- Packages manager
+* Instalação: 
+- https://yarnpkg.com
+
+#Insomnia
+* Função:
+- Ferramenta para debugar o controle de rotas
+* Instalação: 
+- https://insomnia.rest/download/
+
+## postBird
+* Função:
+- Interface para banco de dados
+* Instalação: 
+- via navegador
+
+## Docker
+* Função: 
+- Servidor de criação de containers para banco de dados
+* Instalação:
+- via navegador
 
 
 

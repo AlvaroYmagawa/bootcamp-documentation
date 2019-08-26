@@ -1,0 +1,5 @@
+step 1: docker run --name "nameBd" -e POSTGRES_PASSWORD="password" -p 5432:5432 -p postgres: criar o banco
+
+step 2: Entrar no PostBird e criar uma database
+
+
