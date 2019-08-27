@@ -1,7 +1,7 @@
 # Settings 01
 This setting is required to inform file paths for sequelize.
 
-Step 01
+### Step 01
 	Create .sequelizerc file
 
 ## Step 02
