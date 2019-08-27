@@ -1,8 +1,8 @@
 # RocketSeat Bootcamp GoStack8
-Este repositório tem como objetivo server de índice e histórico dos projetos desenvolvidos durante o Bootcamp, mas também deve servir para anotações de ferramentas e bibliotecas importantes ou úteis para o desenvolvimento na Stack abordada.
+This repository aims to record all progress throughout Bootcamp. In addition to registering tools and packages that were used.
 
 ## Sobre o Bootcamp GoStack08
-Segundo a definição da RocketSeat o GoStack é um treinamento online, intensivo com foco na prática e produtividade. O GoStack aborda a fundo as tecnologias Node.js, React e React Native bem como as ferramentas necessárias para que seja possa ser feito desde o desenvolvimento até o deploy. Incluindo teste, integração contínua, publicação na lojas e as mais utilizadas bibliotecas e frameworks para ser capaz de enfrentar os desafios reais.
+According to the RocketSeat definition, GoStack is intensive, online training focused on practice and productivity. GoStack covers the Node.js, React, and React Native technologies as well as the tools needed to do so from development to deployment. Including testing, seamless integration, in-store publishing, and the most widely used libraries and frameworks to be able to meet the real challenges
 
 # Node.js
 https://github.com/AlvaroYmagawa/GoStack8/tree/master/Node.js
