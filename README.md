@@ -1,4 +1,4 @@
-# RocketSeat Bootcamp GoStack8
+# RocketSeat Bootcamp GoStack08
 This repository aims to record all progress throughout Bootcamp. In addition to registering tools and packages that were used.
 
 ## About Bootcamp GoStack08
