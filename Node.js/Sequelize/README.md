@@ -2,12 +2,12 @@
 This setting is required to inform file paths for sequelize.
 
 ### Step 01
-	Create .sequelizerc file
+	Create ".sequelizerc" file
 
-## Step 02
+### Step 02
 	Change the sintaxe file to JavaScript
 
-## Step 03
+### Step 03
 	Add "script.txt" inside the file
 
 
@@ -15,8 +15,8 @@ This setting is required to inform file paths for sequelize.
 This setting has the db informations, see the structure int "databaseSample.txt"
 to see more https://sequelize.org/master/manual/dialects.html#postgresql
 	
-## Step 01 
+### Step 01 
 	Create a database.js file
 
-## Step 02
+### Step 02
 	Settings the information of your Db 
