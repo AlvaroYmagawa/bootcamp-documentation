@@ -13,7 +13,7 @@
 
 # Settings 02
 	This setting has the db informations, see the structure int "databaseSample.txt"
-	To see more acess https://sequelize.org/master/manual/dialects.html#postgresql
+	https://sequelize.org/master/manual/dialects.html#postgresql
 	
 ## Step 01 
 	Create a database.js file
