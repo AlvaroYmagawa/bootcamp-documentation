@@ -1,4 +1,4 @@
-# Settings 01
+# Setting 01
 This setting is required to inform file paths for sequelize.
 
 ### Step 01
@@ -11,7 +11,7 @@ Change the sintaxe file to "JavaScript"
 Add https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/script.txt inside the file
 
 
-# Settings 02
+# Setting 02
 This setting has the db informations.
 	
 ### Step 01 
