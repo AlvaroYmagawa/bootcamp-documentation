@@ -26,4 +26,5 @@ https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/database
 
 
 ## Sequelize Dialects
+For each database you'll need a package to install, here you can see the packages:
 https://sequelize.org/master/manual/dialects
