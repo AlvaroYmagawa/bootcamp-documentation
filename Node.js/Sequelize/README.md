@@ -20,3 +20,16 @@
 
 ## Step 02
 	Settings the information of your Db 
+
+# How to create a table in db
+
+## Step 01
+	yarn sequelize migration:create --name"name-table" - create the table file
+
+## Step 02
+	Edit the table file and create the atributes of the table see the structure in the "tableExample.txt"
+
+## Step 03
+	yarn sequelize db:migrate - create the table in db
+
+
