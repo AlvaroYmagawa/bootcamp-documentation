@@ -26,7 +26,7 @@ Here we have all the projects done in the boot camp
 * Challange01
 https://github.com/AlvaroYmagawa/GoStack08-Challenge01
 * Challange02
-https://github.com/AlvaroYmagawa/GoStack08-GoBarber
+https://github.com/AlvaroYmagawa/GoStack08-Meetapp
 
 
 
