@@ -1,96 +1,103 @@
 ## Packages
+Here we have all the packeges that was use to create the back-end with Node.js
+
 
 ### express
 Performs server creation and manipulation.
 ```bash
-# Install express:
+# install express:
 yarn add express
 ```
+
 ### nodemon
 Restart the server automatically after save.
 ```bash
-# Install nodemon:
-yarn add nodemon
+# install nodemon:
+yarn add nodemon -D
 ```
 
 ### Eslint
-code standardization.
+Code standardization.
 ```bash
-* # Install eslint: 
-  yarn add eslint -D
-  # You need to install eslint extension on VsCode too
-  # Start service:
-  yarn eslint --init
-  ```
-
-### JWT (Json Web Token)
-* Função:
-- Ferramenta para autentição no login
-* Instalação: 
-- yarn add jsonwebtoken
-
-### Yup
-* Função:
-  Ferramenta para verificação de campos
-* Instalação: 
-  yarn add yup
-
-### Bscryptjs
-* Função:
-  Ferramenta para criptografar dados
-* Instalação:
-  yarn add bcryptojs
-
-
-
-### EditoConfig
-* Função:
-  Facilita a padronização do código em editores diferentes
-* Instalação:
-  instalar extensão via vsCode
+*# you need to install eslint extension on vscode and enable it.
+# install eslint: 
+yarn add eslint -D
+# start service:
+yarn eslint --init
+```
 
 ### Prettier
-* Função:
-  Extensão do Eslint, utilizado para "perfumar" seu código
-* Instalação:
-  instalar extensão via vsCode
-  yarn add prettier -D
-  yarn add eslint-config-prettier -D
-  yarn add eslint-plugin-prettier -D
+Ceautify your code.
+```bash
+*# you need to install prettier extension on vscode and enable it.
+# install prettier
+yarn add prettier  -D
+# install settings for eslint
+yarn add eslint-config-prettier -D
+yarn add eslint-plugin-prettier -D
+```
 
+### EditoConfig
+Export your code standardization settings.
+```bash
+  *# you need to install editorcongig extension on vscode and enable it.
+```
+  
+### JWT (Json Web Token)
+User authentication package
+```bash
+# install jsonwebtoken
+yarn add jsonwebtoken
+```
+
+
+### Yup
+Field validation package
+```bash
+ # install yup
+ yarn add yup
+  ```
+  
+  
+### Bscryptjs
+Package to encrypt data
+```bash
+ # install bscryptjs
+ yarn add bscryptjs
+  ```
+  
+  
 ### Sequelize
-* Função:
-  ORM(Object Relational Mapper), utiliza sintaxe JS para manipular banco de dados
-* Intalação: 
-  yarn add sequelize
-  yarn add sequelize-cli -D //facilita linha de comandos
-
+Object Relational Mapper (ORM), uses JS syntax to manipulate databases
+```bash
+# install sequelize
+yarn add sequelize
+# install sequelize client
+yarn add sequelize-cli -D
+```
 
 ## Ferramentas
 
+
 ### Yarn
-* Função:
-  Packages manager
-* Instalação: 
-  https://yarnpkg.com
+Package manager
+* Installation: 
+https://yarnpkg.com
 
 ### Insomnia
-* Função:
-  Ferramenta para debugar o controle de rotas
-* Instalação: 
-  https://insomnia.rest/download/
+Tool for debugging and handling url requests
+* Installation: 
+https://insomnia.rest/download/
 
 ### postBird
-* Função:
-  Interface para banco de dados
-* Instalação: 
-  via navegador
+database interface
+* Installation: 
+https://electronjs.org/apps/postbird
 
 ### Docker
-* Função: 
-  Servidor de criação de containers para banco de dados
+Tool for create container that isolate the data inside the container 
 * Instalação:
-  via navegador
+https://docs.docker.com/install/
 
 
 
