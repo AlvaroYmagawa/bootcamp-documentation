@@ -1,0 +1,20 @@
+import multer from 'multer'; 
+import crypto from 'crypto'; // for crypto files
+import { extname, resolve } from 'path'; // extname return the exension of some file, resolve inform a path for some source
+
+
+
+export default {
+  storage: multer.diskStorage({ // ".diskStorage" will storage the source receive in the root directory instead of a online db.
+    destination: resolve(__dirname, '..', '..', 'tmp', 'uploads'), // storage the images in this diretory file.
+    filename: (req, file, cb) => { // "filename" is a function thats receive the name of the file.
+      // we have to generate the file as unique to avoid future complications so we are using encryption.
+      crypto.randomBytes(16, (err, res) => { // Generate 16 random bytes
+        if (err) return cb(err); // case ocurr error
+        // case not return error
+        return cb(null, res.toString('hex') + extname(file.originalname)); // Here we'll concatenate the random number generate with the file extension
+      });
+    },
+  }),
+};
+
