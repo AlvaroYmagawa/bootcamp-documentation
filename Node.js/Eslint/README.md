@@ -9,7 +9,7 @@
 ### Step 02
 Setting "eslint.js" file and add the "scripts.txt"  inside the file
 
-script link:
+scripts.txt link:
 https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Eslint/script.txt
 
 
