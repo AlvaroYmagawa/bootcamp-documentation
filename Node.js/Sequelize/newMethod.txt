@@ -1,0 +1,4 @@
+// Reference to File Model
+  static associate(models) {
+    this.belongsTo(models.File, { foreignKey: 'avatar_id' }); // avatar_id belong to File model
+  }

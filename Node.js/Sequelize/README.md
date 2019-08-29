@@ -33,13 +33,15 @@ https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/database
 ## How to create a table in db
 
 ### Step 01
-	yarn sequelize migration:create --name"name-table" - create the table file
+	# create the table file
+	yarn sequelize migration:create --name"name-table" 
 
 ### Step 02
-	Edit the table file and create the atributes of the table see the structure in the "tableExample.txt"
+Edit the table file and create the atributes of the table see the structure in the "tableExample.txt"
 
 ### Step 03
-	yarn sequelize db:migrate - create the table in db
+	# create the table in db
+	yarn sequelize db:migrate 
 
 
 ## How to connect with db
@@ -54,6 +56,30 @@ https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/connectD
 
 ### Step 03
 import the file inside "app.js"
+
+
+## How to references a foreign key
+
+#### Step 01
+You'll need to create a new migration 
+	yarn sequelize migration:create --name"suggestive-name"
+
+### Step 02
+Now inside the new migration set the foreign key.
+* Example:  https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/newMigrate.txt
+
+### Step 03
+Create the new foreign key
+	yarn sequelize db:migrate
+
+### Step 04
+We still need to relacionate models so create a new static method in the class that will receive the foreign key
+* Example: https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/newMethod.txt
+
+### Step 05
+Now call the method in connection db file "index.js"
+* Example: https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/callMethod.txt
+ 
 
 
 
