@@ -76,7 +76,14 @@ yarn add sequelize
 yarn add sequelize-cli -D
 ```
 
-## Ferramentas
+### Multer
+Library to support multplataform data, supports physical files like images.
+```bash
+# install multer
+yarn add multer
+```
+
+## Tools
 
 
 ### Yarn
