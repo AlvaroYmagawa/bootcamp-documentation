@@ -10,8 +10,11 @@ Create ".sequelizerc" file
 ### Step 02
 Change the sintaxe file to "JavaScript"
 
-### Step 03
-Add https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/script.txt inside the file
+### Step 03 
+Set the paths in which sequelize will interact with your application.
+* Example: 
+https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Sequelize/script.txt
+
 
 
 ## Setting 02
@@ -21,7 +24,8 @@ This setting has the db informations.
 Create a "database.js" file
 
 ### Step 02
-Settings the information of your Db , see the structure in:
+Set the informations of your Db.
+* Example:
 https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/databaseSample.txt
 
 
@@ -44,16 +48,18 @@ https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/database
 Create a new .js file
 
 ### Step 02
-Setting the structure like this file:
+Set the structure of your connection.
+* Example:
 https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/connectDb.txt 
 
 ### Step 03
-import the file inside app 
+import the file inside "app.js"
 
 
 
 ## Sequelize Dialects
 For each database you'll need a package to install, here you can see the packages:
+* Sequelize dialects link:
 https://sequelize.org/master/manual/dialects
 
 
