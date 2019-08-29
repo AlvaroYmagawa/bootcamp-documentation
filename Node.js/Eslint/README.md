@@ -5,7 +5,8 @@ ESLint is a static code analysis tool to identify problematic patterns found in 
 ## Settings
 
 ### Step 01
-	yarn eslint --init: start service (necessary npm packet manager to install somes dependences)
+	# start service (necessary "npm" packet manager to install somes dependences)
+	yarn eslint --init
 	
 	
 ### Step 02
