@@ -8,22 +8,6 @@ According to the RocketSeat definition, GoStack is intensive, online training fo
 In this link, there are the packages and tools that were used to develop the backend with Node.js:
 https://github.com/AlvaroYmagawa/GoStack8/tree/master/Node.js
 
-<<<<<<< HEAD
-# GitHub
-=======
-## GitHub
-### Nomenclatura de Commits
-* Feat -> Funcionalidade nova
-* Chore -> Continuação/alteração de uma funcionalidade 
-* Fix -> Resolução de um bug
-* Test -> Teste
-
-### Commands
-* git commit --amend -> Altera a mensagem do último commit
-* git checkout -b "nomeBranch" -> Cria branch
-* git stash -> esconde os stages 
-* git pop -> retorna os stages
->>>>>>> 43074c0adaa46789704091a67247be55c3f3177f
 
 ## Challanges
 Here we have all the projects done in the boot camp
