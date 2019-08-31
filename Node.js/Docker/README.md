@@ -5,10 +5,9 @@ Docker is a container-providing software technology promoted by Docker, Inc. Doc
 
 ```bash
 # view all running databases
-
 docker ps
 # stop the execution of all databases
-
+docker stop databases
 # start a database
-docker start "nameBd": Inicializa o banco 
+docker start "nameBd"
 ```
