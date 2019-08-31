@@ -1,0 +1,9 @@
+ // CHECK FOR PAST DATES
+
+    const hourStart = startOfHour(parseISO(date)); 
+    // parseIso get the req.date and transform in a javascript data 
+    // startOfHour catch the first part of the time
+
+	
+    if (isBefore(hourStart, new Date())) { // if the time that was passed in the request body is before the current time
+      return res.status(400).json({ error: 'Past dates are not permitted' });
