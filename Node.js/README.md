@@ -1,5 +1,6 @@
 ## Packages
 Here we have all the packeges that was use to create the back-end with Node.js
+* To see more details of each package check their folders
 
 
 ### express
@@ -82,6 +83,15 @@ Library to support multplataform data, supports physical files like images.
 # install multer
 yarn add multer
 ```
+
+### Date-fns
+A package for data-type variable manipulat.
+
+```bash
+# Install date-fns in your last version
+yarn add data-fns@next
+```
+
 
 ## Tools
 
