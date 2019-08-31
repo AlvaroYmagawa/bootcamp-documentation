@@ -1,11 +1,10 @@
 # Date-fns
-A package to manipulete date variables.
+A package for data-type variable manipulat.
 
 ## Installation
 ```bash
 # Install date-fns in your last version
 yarn add data-fns@next
-
 ```
 
 ## Time manipulation
