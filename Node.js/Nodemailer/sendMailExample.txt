@@ -1,0 +1,4 @@
+ await Mail.sendMail({
+      to: `${appointment.provider.name} <${appointment.provider.email}`, // name and email of user
+      subject: 'Agendamento cancelado', // title of the mail
+      text: 'Você tem um novo cancelamento', // content od the mail

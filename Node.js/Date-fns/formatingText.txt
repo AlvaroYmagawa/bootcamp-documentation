@@ -1,0 +1,9 @@
+import pt from 'date-fnx/locale/pt' // TO USE THE NAME OF MOUNTH IN PORTUGUESE
+
+
+// dd: show the current day
+// MMMM: show the current mounth
+// H:mm: show the current Hour
+
+const formattedDate = format(hourStart, "'dia' dd 'de' MMMM', às' H:mm'h", {
+      locale: pt,// single quotes are used to levae date-fnx sintaxe.

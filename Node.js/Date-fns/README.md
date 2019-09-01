@@ -16,4 +16,17 @@ Here we have a past dates validation, if a date in the body request is older tha
 ### Check date availability
 
 Here we have a date availibility validation, if the user try to create a new appointment in the same date of another one throws a error.
-* Exampple: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Date-fns/.txt
+* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Date-fns/dateAvailibility.txt
+
+### Get values between a range
+* First you need to import this methods
+```bash
+import { startOfDay, endOfDay, parseISO } from 'date-fns';
+import { Op } from 'sequelize';
+```
+
+### Formating text 
+* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Date-fns/.txt
+
+
+

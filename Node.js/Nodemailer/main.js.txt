@@ -1,0 +1,14 @@
+export default { 
+  // ADD THE MAILTRAP CONFIGS HERE	
+  host: '',
+  port: '',
+  secure: false, // YOU JUST NEED TO ADD THIS LINE AGAIN AFTER COPY THE CONGFIGS
+  auth: {
+    user: '',
+    pass: '',
+  },
+  //---------
+  dafault: {
+    from: 'Equipe GoBarber <noreply@gobarber.com',
+  },
+};

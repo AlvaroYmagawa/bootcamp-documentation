@@ -1,0 +1,18 @@
+import { startOfDay, endOfDay, parseISO } from 'date-fns';
+import { Op } from 'sequelize';
+
+const date = req.query;
+const parseDate = parseISO(date); // turn request.date into readable code for javascript
+
+    const appointments = await Appointment.findAll({
+      where: {
+        provider_id: req.userId,
+        canceled_at: null,
+
+	// EXAMPLE:
+        date: {
+          [Op.between]: [startOfDay(parseDate), endOfDay(parseDate)],
+        },
+
+      },
+      order: ['date'],
