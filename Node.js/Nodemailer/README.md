@@ -26,3 +26,16 @@ Import Mail model to some controller and add the send email method.
 * Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Nodemailer/sendMailExample.txt
 
 
+## How to create a mail template enginees.
+Templates are used to standardize your mails. You can use html and css elements on this templates to customize them and receive node variables to make it dynamic.
+
+### Step 01
+You'll need 2 packages to use the templates.
+```bash
+# install express-handlebars integration
+yarn add express-handlebars
+# install nodemailer-express-handlebars integration
+yarn add nodemailer-express-handlebars
+```
+
+

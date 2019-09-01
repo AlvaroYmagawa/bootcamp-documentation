@@ -1,0 +1,11 @@
+await Mail.sendMail({
+      to: `${appointment.provider.name} <${appointment.provider.email}`, // name and email of user
+      subject: 'Agendamento cancelado', // title of the mail
+      template: 'cancellation', // call template cancellation
+      context: { // this have all the node variables thats was used in the templates "{{ provider}}"
+        provider: appointment.provider.name, 
+        user: appointment.user.name,
+        date: format(appointment.date, "'dia' dd 'de' MMMM', às' H:mm'h", {
+          locale: pt,
+        }),
+      },

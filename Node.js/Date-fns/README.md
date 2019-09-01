@@ -11,7 +11,7 @@ yarn add data-fns@next
 
 ### Check for past dates
 Here we have a past dates validation, if a date in the body request is older than the current date throws an error.
-* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Date-fns/.txt
+* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Date-fns/PastDates.txt
 
 ### Check date availability
 
@@ -25,8 +25,11 @@ import { startOfDay, endOfDay, parseISO } from 'date-fns';
 import { Op } from 'sequelize';
 ```
 
+* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Date-fns/dateBetween.txt
+
+
 ### Formating text 
-* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Date-fns/.txt
+* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Date-fns/formatingText.txt
 
 
 

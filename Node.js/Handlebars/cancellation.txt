@@ -1,0 +1,12 @@
+//CANCELLATION TEMPLATE
+
+{{}} = this reference to a node variable.
+
+<strong>Olá, {{ provider }} </strong><br />
+<p>Houve um cancelamento de horário, confira os detalhes abaixo:</p>
+<p>
+  <strong>Cliete: </strong>{{ user }}<br />
+  <strong>Data/hora: </strong>{{ date }}<br />
+  <small>
+    O horário está novamente disponível para novos agendamentos.
+  </small>
