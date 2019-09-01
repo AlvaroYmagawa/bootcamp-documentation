@@ -2,6 +2,9 @@
 Here we have all the packeges that was use to create the back-end with Node.js
 * To see more details of each package check their folders
 
+## Studies
+In this folder we'll have examples of some operations.
+* Too see more datails acess studies folder.
 
 ### express
 Performs server creation and manipulation.
@@ -77,6 +80,13 @@ yarn add sequelize
 yarn add sequelize-cli -D
 ```
 
+### Mongoose
+Object Relational Mapper (ORM) for MongoDb.
+```bash
+# install mongoose
+yarn add mongoose
+```
+
 ### Multer
 Library to support multplataform data, supports physical files like images.
 ```bash
@@ -88,8 +98,16 @@ yarn add multer
 A package for data-type variable manipulat.
 
 ```bash
-# Install date-fns in your last version
+# install date-fns in your last version
 yarn add data-fns@next
+```
+
+### Nodemailer
+A package to deal with mail sending.
+
+```bash
+# install nodemailer
+yarn add nodemailer
 ```
 
 
