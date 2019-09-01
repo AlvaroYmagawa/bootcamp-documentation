@@ -2,10 +2,6 @@
 Here we have all the packeges that was use to create the back-end with Node.js
 * To see more details of each package check their folders
 
-## Studies
-In this folder we'll have examples of some operations.
-* Too see more datails acess studies folder.
-
 ### express
 Performs server creation and manipulation.
 ```bash
