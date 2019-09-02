@@ -127,7 +127,7 @@ https://electronjs.org/apps/postbird
 
 ### Docker
 Tool for create container that isolate the data inside the container 
-* Instalação:
+* Installation: 
 https://docs.docker.com/install/
 
 ### MongoDB Compass
