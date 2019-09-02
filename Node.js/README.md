@@ -106,6 +106,15 @@ A package to deal with mail sending.
 yarn add nodemailer
 ```
 
+### Bee-Queue
+A simple, fast, robust job/task queue for Node.js, backed by Redis.
+Redis is a performed database.
+
+```bash
+# install bee queue
+yarn add bee-queue
+```
+
 
 ## Tools
 
@@ -134,6 +143,11 @@ https://docs.docker.com/install/
 database interface for mongoDb.
 * Installation:
 https://www.mongodb.com/download-center/compass
+
+### Sentry
+error handling tool
+* https://sentry.io
+
 
 
 ## Services
