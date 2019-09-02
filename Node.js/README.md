@@ -136,3 +136,12 @@ database interface for mongoDb.
 https://www.mongodb.com/download-center/compass
 
 
+## Services
+
+### Mail services
+* Amazon SES
+* Mailgun
+* Mandril(Just with MailChimp)
+* Mailtrap(Only for development)
+
+
