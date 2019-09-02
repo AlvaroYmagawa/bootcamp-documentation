@@ -10,8 +10,7 @@ Create .prettierrc file
 
 ### Step 02 
 add the "script.txt" inside de file:
-* script.txt link:
-https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Prettier/script.txt
+* [script.txt](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Prettier/script.txt)
 	
 
 

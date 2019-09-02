@@ -1,0 +1,36 @@
+import { format, parseISO } from 'date-fns';
+import pt from 'date-fns/locale/pt';
+import Mail from '../../lib/Mail';
+
+class CancellationMail {
+  // get key() can be acess by import the CancellationMail class like this "CancellationMail.key"
+  get key() {
+    return 'CancelattionMail'; // A unique key to represent the cancellation job
+  }
+
+  // inside the handle we have the body of your email, and how he'll works.
+  // handle can receive more than 1 params so this sintaxe.
+  async handle({ data }) {
+    const { appointment } = data;
+
+    await Mail.sendMail({
+      to: `${appointment.provider.name} <${appointment.provider.email}>`, // name and email of user
+      subject: 'Agendamento cancelado', // title of the mail
+      template: 'cancellation', // Template
+      context: {
+        provider: appointment.provider.name,
+        user: appointment.user.name,
+        date: format(
+          parseISO(appointment.date),
+          "'dia' dd 'de' MMMM', às' H:mm'h",
+          {
+            locale: pt,
+          }
+        ),
+      },
+    });
+  }
+}
+
+export default new CancellationMail();
+

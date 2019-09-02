@@ -20,7 +20,7 @@ First you'll need to create a file to store the files that the application will 
 ### Step 02
 Now you have to set the configurations in some file.
 * Create a "multer.js" config file.
-* Follow this example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Multer/multerConfig.txt
+* [multer.js](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Multer/multerConfig.txt)
 
 ## Settings 02
 This settings is required to control the route of the file request with a middleware

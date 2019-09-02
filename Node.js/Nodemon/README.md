@@ -16,6 +16,5 @@ yarn dev
 
 ### Step 02 (this step is necessary to run nodemon with sucrase) 
 Create nodemon.json file and add "script.txt" 
-script.txt link:
-https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Nodemon/script.txt
+* [script.txt](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Nodemon/script.txt)
 	

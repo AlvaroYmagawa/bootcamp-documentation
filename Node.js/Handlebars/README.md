@@ -18,9 +18,9 @@ Now create a folder in src called "views"
 1. inside the "views" create a folder "email"
 2. inside "email" create a "layout" and a "partials" folder
 3. in "layout" create a file called "default.hbs" this is our default mail template
-* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Handlebars/default.txt
+* [default.bhs](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Handlebars/default.txt)
 4. in "partials" create a file called "footes.hbs" this is our mail footer
-* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Handlebars/footer.txt
+* [footer.hbs](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Handlebars/footer.txt)
 5. inside "email" create a file called "cancellation", we'll use this template when a user do a cancellation.
 
 ### Step 03
@@ -34,10 +34,10 @@ import mailConfig from '../config/mail';
 ### Step 04
 1. Create a configureTemplates() method in Mail model.
 2. Call the method in the costructor
-* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Handlebars/configigureTemplates.txt
+* [configureTemplates()](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Handlebars/configigureTemplates.txt)
 
 ### Step 05
 Now to set the templates , you need to acess the send mail method and settings somethings.
-* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Handlebars/callTemplates.txt
+* [Call templates example](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Handlebars/callTemplates.txt)
 
 

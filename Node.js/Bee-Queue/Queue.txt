@@ -1,0 +1,44 @@
+import Bee from 'bee-queue';
+import CancellationMail from '../app/jobs/CancellationMail';
+import redisConifg from '../config/redis';
+
+const jobs = [CancellationMail]; // Here we have all the jobs that will be executed.
+
+class Queue {
+  constructor() {
+    this.queues = {}; // Init the queues
+    this.init();
+  }
+
+  init() {
+    jobs.forEach(({ key, handle }) => { // Go through the vector and get they variables.
+      this.queues[key] = { // queue receive the all the jobs inside the vector jobs.
+        bee: new Bee(key, {
+          redis: redisConifg, // Connect with redis database.
+        }),
+        handle,
+      };
+    });
+  }
+
+  // Add a job inside the queue to be executed
+  add(queue, job) {
+    return this.queues[queue].bee.createJob(job).save();
+  }
+
+  // Process the job inside the queue
+  processQueue() {
+    jobs.forEach(job => {
+      const { bee, handle } = this.queues[job.key];
+
+      bee.on('failed', this.handleFailure).process(handle); // catch a error
+    });
+  }
+
+  handleFailure(job, err) {
+    console.log(`Queue ${job.queue.name}: FAILED `, err);
+  }
+}
+
+export default new Queue();
+

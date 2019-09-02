@@ -12,8 +12,7 @@ Change the sintaxe file to "JavaScript"
 
 ### Step 03 
 Set the paths in which sequelize will interact with your application.
-* Example: 
-https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Sequelize/script.txt
+* [.sequelizerc](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Sequelize/script.txt)
 
 
 
@@ -25,8 +24,7 @@ Create a "database.js" file
 
 ### Step 02
 Set the informations of your Db.
-* Example:
-https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/databaseSample.txt
+* [Data base example](https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/databaseSample.txt)
 
 
 
@@ -51,8 +49,7 @@ Create a new .js file
 
 ### Step 02
 Set the structure of your connection.
-* Example:
-https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/connectDb.txt 
+* [Connection example](https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/connectDb.txt)
 
 ### Step 03
 import the file inside "app.js"
@@ -66,7 +63,7 @@ You'll need to create a new migration
 
 ### Step 02
 Now inside the new migration set the foreign key.
-* Example:  https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/newMigrate.txt
+* [New migrate example](https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/newMigrate.txt)
 
 ### Step 03
 Create the new foreign key
@@ -74,11 +71,11 @@ Create the new foreign key
 
 ### Step 04
 We still need to relacionate models so create a new static method in the class that will receive the foreign key
-* Example: https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/newMethod.txt
+* [Static method example](https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/newMethod.txt)
 
 ### Step 05
 Now call the method in connection db file "index.js"
-* Example: https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/callMethod.txt
+* [Call method example](https://github.com/AlvaroYmagawa/GoStack8/blob/master/Node.js/Sequelize/callMethod.txt)
  
 
 

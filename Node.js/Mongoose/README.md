@@ -5,11 +5,9 @@ Mongoose its the MongoDb ORM
 
 ### Step 01 
 create a method in your database connection file .
-* Example 
-https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Mongoose/connection.txt
+* [Connection example](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Mongoose/connection.txt)
 
 ## Create a schema
-Schema is required to manipulate the database with mongoose, it's seems like a model file..
-* Example
-https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Mongoose/schemaExample.txt
+Schema is required to manipulate the database with mongoose, it's seems like a model file.
+* [Schema example](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Mongoose/schemaExample.txt)
 

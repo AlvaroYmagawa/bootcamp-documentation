@@ -17,10 +17,9 @@ form response: 3, 1, 3, 2, 1 , 1
 
 
 ### Step 03
-Setting "eslint.js" file and add the "scripts.txt"  inside the file
+Setting "eslint.js" file and add the "Scripts example"  inside the file
 
-scripts.txt link:
-https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Eslint/script.txt
+*[Scripts example](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Eslint/script.txt)
 
 
 	

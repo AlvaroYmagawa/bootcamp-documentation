@@ -8,7 +8,7 @@ Nodemailer its a package to handle with email sending.
 
 ### Step 01
 First create a new file in config folder called "mail.js".
-* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Nodemailer/main.js.txt
+* [mail.js](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Nodemailer/main.js.txt)
 
 ### Step 02
 Set the file with the mailtrap settings.
@@ -18,12 +18,12 @@ Set the file with the mailtrap settings.
 Create a new folder inside the src called "lib" (lib usually used for storage external controls)
 
 ### Step 04
-Inside the lib folde create a "Mail.js"model.
-* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Nodemailer/modelExample.txt
+Inside the lib folde create a "Mail.js" model.
+* [Mail.js](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Nodemailer/modelExample.txt)
 
 ### Step 05
 Import Mail model to some controller and add the send email method.
-* Example: https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Nodemailer/sendMailExample.txt
+* [Send mail example](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Nodemailer/sendMailExample.txt)
 
 
 
