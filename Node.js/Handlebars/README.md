@@ -29,6 +29,7 @@ Now we need to set the path to this folders. To do this we need to import this 3
 import nodemailerhbs from 'nodemailer-express-handlebars';
 import { resolve } from 'path';
 import mailConfig from '../config/mail';
+import exphbs from 'express-handlebars';
 ```
 
 ### Step 04
