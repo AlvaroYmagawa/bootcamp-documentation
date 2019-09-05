@@ -25,8 +25,9 @@ Inside the lib folde create a "Mail.js" model.
 Import Mail model to some controller and add the send email method.
 * [Send mail example](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Nodemailer/sendMailExample.txt)
 
-## To Create templates for your email see more here:
-[Handlebars](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Handlebars)
+## Mail templates
+Mail templates are used to personalizate the body of your email.
+* See more here:[Handlebars](https://github.com/AlvaroYmagawa/GoStack08/blob/master/Node.js/Handlebars)
 
 
 
