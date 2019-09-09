@@ -10,5 +10,6 @@
 * Model controller
 	* store()
 * Config database
+import './database' in app.js
 
 
