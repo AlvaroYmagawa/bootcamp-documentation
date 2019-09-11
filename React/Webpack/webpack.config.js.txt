@@ -1,0 +1,19 @@
+const path = require('path');
+
+module.exports = {
+  entry: path.resolve(__dirname, 'src', 'index.js'), // set the file that will be converted
+  output: {
+    path: path.resolve(__dirname, 'public'), // where bundle.js will be generate
+    filename: 'bundle.js'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/, // regular expression
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader' // need the babel-loader package
+        }
+      }
+    ]
+  }
