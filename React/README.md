@@ -10,3 +10,6 @@ yarn add react react-dom
 ### Babel
 
 ### Webpack
+
+### Prop-Types
+Prop-types is a package to validate props.

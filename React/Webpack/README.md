@@ -17,8 +17,8 @@ This settings is required to set the file that will be converted by the babel lo
 Create a webpack.config.js file
 [webpack.config.js](https://github.com/AlvaroYmagawa/GoStack08/React/Webpack/webpack.config.js.txt))
 ```bash
-	# install babel loader
-	yarn add babel-loader
+# install babel loader
+yarn add babel-loader
 ```
 
 ### Step 02
