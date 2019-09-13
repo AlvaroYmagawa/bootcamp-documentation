@@ -1,15 +1,32 @@
-# React 
+# ReactJs
+In this folder we have all the packages and tools that are used for react development.
 
 ## Installation
 ```bash
+# install react and react-dom
 yarn add react react-dom
 ```
 
-## Tools
+
+## Packages
 
 ### Babel
+Babel is a free and open source JavaScript compiler that is mainly used to convert ECMAScript 2015+ code to a backward compatible version of JavaScript that can be executed by older JavaScript engines.
+```bash
+# install babel babel preset-env and babel preset-react
+yarn add @babel/core @babel/preset-env @babel/preset-react
+```
+[Details](https://github.com/AlvaroYmagawa/GoStack08/tree/master/React/Babel)
+
 
 ### Webpack
+It's a wrapper module, mainly for JavaScript.
+```bash
+# install webpack and webpack-cli
+yarn add webpack webpack-cli
+```
+[Details](https://github.com/AlvaroYmagawa/GoStack08/tree/master/React/Webpack)
+
 
 ### Prop-Types
 Prop-types is a package to validate props.
