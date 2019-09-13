@@ -116,7 +116,7 @@ Import in App.js your file
 ```bash
 import profile '.assets/profile.jpg'
 
-<img src={profile} // to use inside a img
+<img src={profile}\> // to use inside a img
 ```
 
 
