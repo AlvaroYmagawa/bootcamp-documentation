@@ -12,7 +12,7 @@ yarn add react react-dom
 
 ### Babel
 Babel is a free and open source JavaScript compiler that is mainly used to convert ECMAScript 2015+ code to a backward compatible version of JavaScript that can be executed by older JavaScript engines.
-* See more the details here: [Babel](https://github.com/AlvaroYmagawa/GoStack08/tree/master/React/Babel)
+* See more details about Babel here: [Babel](https://github.com/AlvaroYmagawa/GoStack08/tree/master/React/Babel)
 ```bash
 # install babel babel preset-env and babel preset-react
 yarn add @babel/core @babel/preset-env @babel/preset-react
@@ -22,11 +22,12 @@ yarn add @babel/core @babel/preset-env @babel/preset-react
 
 ### Webpack
 It's a wrapper module, mainly for JavaScript.
+* See more datils about Webpack here: [Webpack](https://github.com/AlvaroYmagawa/GoStack08/tree/master/React/Webpack)
 ```bash
 # install webpack and webpack-cli
 yarn add webpack webpack-cli
 ```
-[Details](https://github.com/AlvaroYmagawa/GoStack08/tree/master/React/Webpack)
+
 
 
 ### Prop-Types
