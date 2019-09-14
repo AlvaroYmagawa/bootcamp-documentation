@@ -12,7 +12,8 @@ In this link, there are the packages and tools that were used to develop the bac
 ## Challanges
 Here we have all the projects done in the boot camp
 * [Challange01](https://github.com/AlvaroYmagawa/GoStack08-Challenge01)
-* [Challange02](https://github.com/AlvaroYmagawa/GoStack08-Meetapp)
+* [Challange02 & 03](https://github.com/AlvaroYmagawa/GoStack08-Meetapp)
+* [Challange04](https://github.com/AlvaroYmagawa/GoStack08-Challange04)
 
 
 
