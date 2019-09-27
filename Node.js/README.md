@@ -1,161 +1,83 @@
+# Node.js
+
+- Node is a platform for backend development.
+- Does not handle end user events
+- Use routes and integrations
+- Built on top of the V8 (Google Chrome Enginne).
+- Comparable:
+  - PHP
+  - Ruby
+  - Python
+  - Go;
+
+## Node.js advantages
+
+- ### Event-loop architecture
+
+  Node has the event loop architecture that constantly monitors event triggers. When a event is triggered Node send them to the "Call Stack".
+
+  - #### Call Stack
+    Call stack is a stack of events, whenever an event is triggered the node puts it in the call stack and executes in stack form.
+
+- ### Single-Thread
+
+  Node runs on only one thread of our processor, but since node uses many C ++ libs, we have "libuv" that allows the use of multithreads "behind the scenes", increasing the performance of responses to the client.
+
+- ### Non-Blocking I/O
+
+  Does not block client connection after response is provided, making real-time applications like chats.
+
+## NPM & YARN
+
+- Package managers
+- We can use third party libraries
+- Constantly updated
+- Comparable:
+  - PHP composer;
+  - Gems
+  - Python PIP
+
 ## Packages
-Here we have all the packeges that was use to create the back-end with Node.js
-* To see more details of each package check their folders
 
-### express
-Performs server creation and manipulation.
-```bash
-# install express:
-yarn add express
-```
+- [Express](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Express) : Server creation.
 
-### nodemon
-Restart the server automatically after save.
-```bash
-# install nodemon:
-yarn add nodemon -D
-```
+- [Nodemon](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Nodemon) : Restart the server automatically after save.
 
-### Eslint
-Code standardization.
-```bash
-*# you need to install eslint extension on vscode and enable it.
-# install eslint: 
-yarn add eslint -D
-# start service:
-yarn eslint --init
-```
+- [Eslint](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Eslint) : Code standardization.
 
-### Prettier
-Ceautify your code.
-```bash
-*# you need to install prettier extension on vscode and enable it.
-# install prettier
-yarn add prettier  -D
-# install settings for eslint
-yarn add eslint-config-prettier -D
-yarn add eslint-plugin-prettier -D
-```
+- [Prettier](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Prettier) : Beautify your code.
 
-### EditoConfig
-Export your code standardization settings.
-```bash
-  *# you need to install editorcongig extension on vscode and enable it.
-```
-  
-### JWT (Json Web Token)
-User authentication package
-```bash
-# install jsonwebtoken
-yarn add jsonwebtoken
-```
+- [EditoConfig](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Bee-Queue) : Export your code standardization settings.
 
+- [JWT (Json Web Token)](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Jwt) : User authentication package
 
-### Yup
-Field validation package
-```bash
- # install yup
- yarn add yup
-  ```
-  
-  
-### Bscryptjs
-Package to encrypt data
-```bash
- # install bscryptjs
- yarn add bscryptjs
-  ```
-  
-  
-### Sequelize
-Object Relational Mapper (ORM), uses JS syntax to manipulate databases
-```bash
-# install sequelize
-yarn add sequelize
-# install sequelize client
-yarn add sequelize-cli -D
-```
+- [Yup](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Bee-Queue) : Field validation package
 
-### Mongoose
-Object Relational Mapper (ORM) for MongoDb.
-```bash
-# install mongoose
-yarn add mongoose
-```
+- [Bscryptjs](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Bscryptjs) : Package to encrypt data
 
-### Multer
-Library to support multplataform data, supports physical files like images.
-```bash
-# install multer
-yarn add multer
-```
+- [Sequelize](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Sequelize) : Object Relational Mapper (ORM), uses JS syntax to manipulate databases
 
-### Date-fns
-A package for data-type variable manipulat.
+- [Date-fns](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Date-fns) : A package for data-type variable manipulate.
 
-```bash
-# install date-fns in your last version
-yarn add data-fns@next
-```
+- [Mongoose](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Mongoose) : Object Relational Mapper (ORM) for MongoDb.
 
-### Nodemailer
-A package to deal with mail sending.
+- [Multer](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Multer) : Library to support multplataform data, supports physical files like images
 
-```bash
-# install nodemailer
-yarn add nodemailer
-```
+- [Nodemailer](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Nodemailer) : A package to deal with mail sending.
 
-### Bee-Queue
-A simple, fast, robust job/task queue for Node.js, backed by Redis.
-Redis is a performed database.
-
-```bash
-# install bee queue
-yarn add bee-queue
-```
-
+- [Bee-Queue](https://github.com/AlvaroYmagawa/GoStack08/tree/master/Node.js/Bee-Queue) : A simple, fast, robust job/task queue for Node.js, backed by Redis.
+  Redis is a performed database.
 
 ## Tools
 
+- [Yarn](https://yarnpkg.com) : Package manager
 
-### Yarn
-Package manager
-* Installation: 
-https://yarnpkg.com
+- [Insominia](https://insomnia.rest/download/) : Tool for debugging and handling url requests
 
-### Insomnia
-Tool for debugging and handling url requests
-* Installation: 
-https://insomnia.rest/download/
+- [PostBird](https://electronjs.org/apps/postbird) : database interface for postgres
 
-### postBird
-database interface for postgres.
-* Installation: 
-https://electronjs.org/apps/postbird
+- [Docker](https://docs.docker.com/install/) : Tool for create container that isolate the data inside the container
 
-### Docker
-Tool for create container that isolate the data inside the container 
-* Installation: 
-https://docs.docker.com/install/
+- [MongoDB Compass](https://www.mongodb.com/download-center/compass) : database interface for mongoDb.
 
-### MongoDB Compass
-database interface for mongoDb.
-* Installation:
-https://www.mongodb.com/download-center/compass
-
-### Sentry
-error handling tool
-* https://sentry.io
-
-
-
-## Services
-
-### Mail services
-* Amazon SES
-* Mailgun
-* Mandril(Just with MailChimp)
-* Mailtrap(Only for development)
-
-
+- [Sentry](https://sentry.io) : error handling tool
