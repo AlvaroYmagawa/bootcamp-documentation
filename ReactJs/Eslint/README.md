@@ -3,7 +3,7 @@
 * #### 1. Install eslint in a devDependence
 	yarn add eslint -D
 
-* ####2. Start eslint service
+* #### 2. Start eslint service
 	yarn eslint --init
 
 * #### 3. Answer the questions and select react.
