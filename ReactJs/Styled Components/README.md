@@ -83,3 +83,21 @@ ${props => props.loading && css`
     }
   `};
 ```
+
+## How to create a global style
+
+### 1.
+Create a folder styles and a file global.js
+
+### 2.
+Now import createGlobalstyle.
+```
+import { createGlobalStyle } from 'styled-components';
+```
+
+### 3. 
+Import GlobalStyle in your App.js and add the component inside de return.
+```
+import GlobalStyle from './styles/global';
+```
+
