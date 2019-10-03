@@ -1,6 +1,6 @@
 # How to config Eslint for react
 
-* 1. Install eslint in a devDependence
+* # 1. Install eslint in a devDependence
 	yarn add eslint -D
 
 * 2. Start eslint service
