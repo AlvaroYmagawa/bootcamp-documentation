@@ -30,40 +30,38 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
 	```
 	# Example
 	extends: [
-	'airbnb',
-		 'prettier',
-		 'prettier/react'
+	  'airbnb',
+	  'prettier',
+	  'prettier/react'
 	]
 	```
 	
-	* #### 7.2 - Before 'parseOptions' we'll create a parse element that will receive the babel-eslint.
+	* #### 7.2 Before 'parseOptions' we'll create a parse element that will receive the babel-eslint.
+	```
+	# Example
+		parser: 'babel-eslint'
+	```
 
+	* #### 7.3 In 'plugins' we need to add prettier.
 	
-```bash
-# Example
-	parser: 'babel-eslint'
-```
+	```
+	# Example
+		plugins: [
+		  'react',
+		  'prettier'
+		]
+	```
 
-### 7.3
-	- In 'plugins' we need to add prettier.
-```bash
-# Example
-	plugins: [
-	  'react',
-	  'prettier'
-	]
-```
-
-### 7.4
-```
-rules: {
-  'prettier/prettier': 'error',
-  'react/jsx-filename-extension': [
-    'warn',
-   { extension: ['jsx', 'js'] }
-   ],
-   'import/prefer-default-export': 'off'
-},
-```
+	* #### 7.4 Now you need to set some rules
+	```
+	 rules: {
+	    'prettier/prettier': 'error',
+	    'react/jsx-filename-extension': [
+	      'warn',
+	      { extensions: ['.jsx', '.js'] }
+	    ],
+	    'import/prefer-default-export': 'off'
+	  },
+	```
 
 
