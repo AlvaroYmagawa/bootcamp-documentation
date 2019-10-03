@@ -30,7 +30,7 @@ Now in your '.eslintrc.js' file you need to setting some things.
 ```bash
 # Example
 	extends: [
-	  'airnbnb',
+	  'airbnb',
 	  'prettier',
 	  'prettier/react'
 	]
