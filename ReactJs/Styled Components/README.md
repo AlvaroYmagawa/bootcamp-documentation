@@ -48,14 +48,12 @@ In this case the when the component is disabled he will have a opacity: 0.6 and 
 
 ## How to make a rotate animation 
 
-### 1.
-Import keyframes to work with animations.
+* ### 1. Import keyframes to work with animations.
 ```
 import {keyframes} from 'styled components';
 ```
 
-### 2.
-Now create a const rotate to receive this.
+* ### 2. Now create a const rotate to receive this.
 ```
 const rotate = keyframes`
   from{
@@ -68,14 +66,12 @@ const rotate = keyframes`
 `;
 ```
 
-### 3.
-Now we need to import css to deal with props in css.
+* ### 3. Now we need to import css to deal with props in css.
 ```
 import {css} from 'styled components';
 ```
 
-### 4.
-Now create a function to make your svg animation works only when somethings is loading.
+* ### 4. Now create a function to make your svg animation works only when somethings is loading.
 ```
 ${props => props.loading && css`
     svg {
@@ -86,17 +82,14 @@ ${props => props.loading && css`
 
 ## How to create a global style
 
-### 1.
-Create a folder styles and a file global.js
+* ### 1. Create a folder styles and a file global.js
 
-### 2.
-Now import createGlobalstyle.
+* ### 2. Now import createGlobalstyle.
 ```
 import { createGlobalStyle } from 'styled-components';
 ```
 
-### 3. 
-Import GlobalStyle in your App.js and add the component inside de return.
+* ### 3. Import GlobalStyle in your App.js and add the component inside de return.
 ```
 import GlobalStyle from './styles/global';
 ```
