@@ -140,4 +140,38 @@ export default connect(state => ({
 
 6. To get the state.cart you need to desestruturate him in your component like a props.
 
+## Create reusable actions
+1. First create a action.js file inside your src/store/modules/example
+
+2. Now export the functions that you wanna use.
+	```
+	# example
+	export function addToCart(product) {
+  	  return {
+    	    type: 'ADD_TO_CART',
+    	    product,
+  	  };
+	}
+	```
+
+3. Now import your actions.js file in some Component that you wanna use the action and import bindActionsCreator from redux to deal with actions.
+	```
+	# import action.js
+	import * as ExampleActions from '../../store/modules/example/actions.js'
+	# import bindActionsCreators
+	import { bindActionCreators } from 'redux';
+	```
+
+4. In the end of your component create a const that will receive the actions.
+	```
+	const mapDispatchToProps = dispatch =>
+	  bindActionCreators(CartActions, dispatch);
+	```
+
+5. Now add this const inside your connect function, and after that you can desestruturate yours actions in this.state of this component.
+	```
+	export default connect(null, mapDispatchToProps)(Example);
+	```
+
+
 
