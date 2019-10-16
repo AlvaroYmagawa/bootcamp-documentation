@@ -8,6 +8,10 @@ According to the RocketSeat definition, GoStack is intensive, online training fo
 In this link, there are the packages and tools that were used to develop the backend with Node.js:
 * [NodeJs](https://github.com/AlvaroYmagawa/GoStack8/tree/master/Node.js)
 
+## React
+In this link, there are the packages and tools that were used to develop the frontend and mobile with ReactJs and React Native:
+* [React](https://github.com/AlvaroYmagawa/GoStack8/tree/master/React)
+
 
 ## Challanges
 Here we have all the projects done in the boot camp
