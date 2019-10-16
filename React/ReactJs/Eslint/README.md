@@ -71,3 +71,25 @@ module.exports = {
 };
 ```
 
+# EditorConfig
+```
+root = true
+
+[*]
+end_of_line = lf
+indent_style = space
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+```
+
+# Prettier
+```
+{
+  "singleQuote": true,
+  "trailingComma": "es5"
+}
+
+```
+
