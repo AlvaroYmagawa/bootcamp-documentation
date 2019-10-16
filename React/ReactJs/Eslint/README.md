@@ -24,44 +24,50 @@ yarn
 yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
 ```
 
-* #### 7.Now in your '.eslintrc.js' file you need to setting some things.
-
-	* #### 7.1 First in 'extends' we'll extends prettier and prettier/react configurations
-	```
-	# Example
-	extends: [
-	  'airbnb',
-	  'prettier',
-	  'prettier/react'
-	]
-	```
-	
-	* #### 7.2 Before 'parseOptions' we'll create a parse element that will receive the babel-eslint.
-	```
-	# Example
-		parser: 'babel-eslint'
-	```
-
-	* #### 7.3 In 'plugins' we need to add prettier.
-	
-	```
-	# Example
-		plugins: [
-		  'react',
-		  'prettier'
-		]
-	```
-
-	* #### 7.4 Now you need to set some rules
-	```
-	 rules: {
-	    'prettier/prettier': 'error',
-	    'react/jsx-filename-extension': [
-	      'warn',
-	      { extensions: ['.jsx', '.js'] }
-	    ],
-	    'import/prefer-default-export': 'off'
-	  },
-	```
-
+* #### 7. Example of a .eslintrc file with redux settings and reactotron settings.
+```
+module.exports = {
+  env: {
+    es6: true,
+    jest: true,
+    browser: true
+  },
+  extends: ["airbnb", "prettier", "prettier/react"],
+  globals: {
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly",
+    __DEV__: true
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    },
+    ecmaVersion: 2018,
+    sourceType: "module"
+  },
+  plugins: ["react", "jsx-a11y", "import", "react-hooks", "prettier"],
+  rules: {
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": ["error", { extensions: [".js", ".jsx"] }],
+    "import/prefer-default-export": "off",
+    "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+    "react/jsx-one-expression-per-line": "off",
+    "global-require": "off",
+    "react-native/no-raw-text": "off",
+    "no-param-reassign": "off",
+    "no-underscore-dangle": "off",
+    camelcase: "off",
+    "no-console": ["error", { allow: ["tron"] }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  settings: {
+    "import/resolver": {
+      "babel-plugin-root-import": {
+        rootPathSuffix: "src"
+      },
+    },
+  },
+};
+```
 
