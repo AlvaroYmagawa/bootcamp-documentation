@@ -14,11 +14,14 @@ docker stop databases
 docker start "nameBd"
 ```
 
-## Start databases
+## Create images
 ```bash
-# up a container to run a image of mongoDb
+# run a postgres image
+docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+
+# run a mongoDb image
 docker run --name mongobarber -p 27017:27017 -d -t mongo
 
-# run a image of redis
+# run a redis image
 docker --run redisbarber -p6379:6379 -d -t redis:alpine
 ```
